@@ -32,7 +32,7 @@ func Drive(car Car) Car {
 		return car
 	}
 	car.battery = battery_tmp
-	car.distance = car.distance + car.speed
+	car.distance += car.speed
 	return car
 }
 
